@@ -1,0 +1,33 @@
+Toda variavel em PHP vai começar com um $ na frente
+
+$var = dado;
+
+Todo nome de variavel tem que serem escritos com letras
+misuculuas
+
+Os tipos primitivos do php são iguais aos de outras linguage
+ns
+
+Para forçar a conversão de uma variavel você pode utilizar:
+
+Inteiro: (int), (integer)
+
+Real: (real), (float), (double)
+
+Caractere: (string)
+
+Logico: Não existe, caso um valor seja verdadeiro ele
+retorna 1, se não ele deixa a var vazia
+
+============================================================
+
+Concatenação:
+
+Para concantenar em PHP, usa-sé .
+
+echo $var. "str". $var2. "str";
+
+Como toda var começa com $ você pode simplismente colocar
+tudo entre ""
+
+echo "$var str $var2 str"

@@ -17,11 +17,3 @@ echo "<h2>texto</h2>"
 ============================================
 
 phpinfo() = exibe informações sobre o PHP atual
-
-============================================
-//Aula 04
-
-$var = dado; declara uma variavel
-
-echo "$var texto"; concatena um texto
-============================================
