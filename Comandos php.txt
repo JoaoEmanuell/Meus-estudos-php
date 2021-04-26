@@ -1,0 +1,19 @@
+Todo comando PHP deve estar entre as tags
+
+<?php
+	bloco;
+?>
+
+Todo comando deve ser fechado com ; no final dele
+
+============================================
+
+echo "texto" = escreve na tela o texto desejado
+
+Dentro dos comandos do PHP pode-se usar tags html
+
+echo "<h2>texto</h2>"
+
+============================================
+
+phpinfo() = exibe informações sobre o PHP atual

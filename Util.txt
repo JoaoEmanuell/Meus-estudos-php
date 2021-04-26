@@ -1,0 +1,15 @@
+Para acessar a pasta do serve-side va em:
+
+Outros locais
+
+Computador
+
+var
+
+www
+
+html
+
+Dentro dessa pasta tera o arquivo que vc pode modificar, abra com o vscode
+
+E tenha a aula de forma feliz, depois copie os arquivos para a pasta desejada
