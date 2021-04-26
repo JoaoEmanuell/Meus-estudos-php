@@ -1,0 +1,16 @@
+Como surgiu o PHP?
+
+Tudo começou em 1970, com o surgimento da internet
+
+Em 1995 um progamado que tinha a curiosidade de saber quantas pessoas acessavam o seu site, criou uma interface baseada em C, chamada de 
+
+Personal
+Home
+Page
+Tools
+
+Inicialmente o PHP não era uma linguagem de progamação mas sim uma interface para visualizar o numero de acessos ao site, mas o progamador que o criou resolveu que queria uma forma de ter mais interatividade com o usuario que acessa o site, dessa forma ele criou uma forma de ter formularios que pudessem ser enviados para o site e depois serem mostrados a outros usuarios.
+
+Porém até agora o PHP não era considerado uma linguagem de progamação, mas inconsientimente o progamador fez isso, ele liberou o codigo-fonte do PHP para que qualquer pessoa pudesse ter acesso, modificar, criar funcionalidades...
+
+Em 1997 segundo a Netcraft, já haviam 60.000 domínios que utilizavam PHP
