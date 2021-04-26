@@ -1,0 +1,7 @@
+Como funciona o PHP?
+
+Tecnologias como o HTML são conhecidas como client-side, uma vez que o responsavel por processar a maior parte das informações é o cliente e não o servidor.
+
+Toda a parte PHP vai ser interpretada pelo servidor, transformado em HTML e enviado para o usuario.
+
+Tecnologias como o PHP são conhecidas como serve-side, uma vez que o responsavel por processar a maior parte das informações é o servidor e não o cliente
