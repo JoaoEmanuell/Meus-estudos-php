@@ -1,31 +1,32 @@
-Todo comando PHP deve estar entre as tags
+No PHP os operadores aritimeticos são:
 
-<?php
-	bloco;
-?>
+Adição = +
 
-Todo comando deve ser fechado com ; no final dele
+Subtração = -
 
-============================================
+Multiplicação = *
 
-echo "texto" = escreve na tela o texto desejado
+Divisão = /
 
-Dentro dos comandos do PHP pode-se usar tags html
+Módulo = %
 
-echo "<h2>texto</h2>"
+====================================================================
 
-============================================
+Ordem de Precedência:
 
-phpinfo() = exibe informações sobre o PHP atual
+Parênteses ()
 
-============================================
-//Aula 04
+Multiplicação *
 
-$var = dado; declara uma variavel
+Divisão /
 
-echo "$var texto"; concatena um texto
-============================================
-//Aula 05
+Módulo %
+
+Adição +
+
+Subtração -
+
+====================================================================
 
 Colocando letras e numeros na url:
 
@@ -38,6 +39,10 @@ Podemos fazer o PHP retirar elementos dessa URL, usando o comando:
 $var = $_GET["a"];
 
 Dessa forma é possivel ter elementos personalizados usando a url.
+
+====================================================================
+
+Funções Matemáticas:
 
 abs(v) = Valor absoluto
 
@@ -56,4 +61,4 @@ number_format(v, d, 'dec_point', 'thousands_sep') = Formatação
 	d = numero de casas decimais
 	dec_point = sinal de separação decimal (por padrão é ponto)
 	thousands_sep = sinal de separação milar (por padrão é virgula)
-============================================
+
