@@ -1,0 +1,120 @@
+Operadores de atribuição tem o proposito de simplificar uma
+atribuição a uma variavel:
+
+Operadores de atribuição
+
+Adição:
+
+	$var = $var + valor;
+	
+	$var += valor;
+	
+	Caso a variavel esteja recebendo ela + 1 você pode
+	utilizar
+	
+	$var++;
+
+Subtração:
+
+	$var = $var - valor;
+	
+	$var -= valor;
+
+	Caso a variavel esteja recebendo ela - 1 você pode
+	utilizar
+
+	$var--;
+
+Multiplicação:
+
+	$var = $var * valor;
+
+	$var *= valor;
+
+Divisão:
+
+	$var = $var / valor;
+	
+	$var /= valor;
+
+Módulo:
+
+	$var = $var % valor;
+
+	$var %= valor
+
+Concatenação (util para str):
+
+	$a = $a.$b
+
+	$a .= $b
+
+Operadores de incremento:
+
+Os operadores de pré-incremento primeiro incrementam a var
+e já alteram ela. (mesma regra pro decremento)
+
+Já os de Pós-incremento primeiro mantem a var e depois
+alteram ela. (mesma regra pro decremento)
+
+Pré-incremento:
+
+	$a = $a + 1
+	
+	++$a
+
+Pós-incremento:
+
+	$a = $a + 1
+
+	$a++
+
+Pré-decremento:
+
+	$a = $a - 1
+
+	--$a
+
+Pós-decremento:
+
+	$a = $a - 1
+
+	$a--
+
+Comentários:
+
+Comentários inline:
+
+	//Comentário
+
+	#Comentário
+
+Comentários multiline:
+
+	/*Tudo o que estiver aqui é comentário*/
+
+Variáveis referenciadas:
+
+Variáveis referenciadas são variáves que recebem o valor
+de outra variável, porém se a variável for mudada a outra 
+tmb será, existe uma ligação entre as variáveis.
+
+$var = 3;
+
+$varb = &$var;
+
+Variáveis de variáveis:
+
+Variáveis de variáveis são variáveis que o nome delas sera
+o valor de outra variável:
+
+$var = "oi";
+
+$$var = "eae";
+
+echo "$var";
+
+echo "$oi";
+
+Dessa forma temos uma variavel que o nome dela é o valor
+da outra variável.

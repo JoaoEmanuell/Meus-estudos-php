@@ -57,3 +57,112 @@ number_format(v, d, 'dec_point', 'thousands_sep') = Formatação
 	dec_point = sinal de separação decimal (por padrão é ponto)
 	thousands_sep = sinal de separação milar (por padrão é virgula)
 ============================================
+//Aula 06
+
+Pré-incremento:
+
+	$a = $a + 1
+	
+	++$a
+
+Pós-incremento:
+
+	$a = $a + 1
+
+	$a++
+
+Pré-decremento:
+
+	$a = $a - 1
+
+	--$a
+
+Pós-decremento:
+
+	$a = $a - 1
+
+	$a--
+	
+Comentários inline:
+
+	//Comentário
+
+	#Comentário
+
+Comentários multiline:
+
+	/*Tudo o que estiver aqui é comentário*/
+
+Variáveis referenciadas:
+
+Variáveis referenciadas são variáves que recebem o valor
+de outra variável, porém se a variável for mudada a outra 
+tmb será, existe uma ligação entre as variáveis.
+
+$var = 3;
+
+$varb = &$var;
+
+Variáveis de variáveis:
+
+Variáveis de variáveis são variáveis que o nome delas sera
+o valor de outra variável:
+
+$var = "oi";
+
+$$var = "eae";
+
+echo "$var";
+
+echo "$oi";
+
+Dessa forma temos uma variavel que o nome dela é o valor
+da outra variável.
+============================================
+//Aula 07
+
+Operadores Relacionais:
+
+Maior >
+
+Menor <
+
+Maior ou igual >=
+
+Menor ou igual <=
+
+Diferente <> ou !=
+
+Igual ==
+
+Idêntico === //Testa se o conteudo da var é igual ao da
+outra var
+
+Operador Unário:
+
+expressão ? verdadeiro : falso;
+
+Mesma coisa do operador ternario
+
+Operadores Lógicos:
+
+and && :
+	
+	Se os dois valores forem veradeiros ele retorna
+	verdadeiro senão retorna falso
+
+or || :
+
+	Se um valor for verdadeiro ele retorna verdadeiro
+	senão ele retorna falso
+
+xor:
+
+	Se um valor for falso ele retorna verdadeiro, mas
+	se dois valores forem falsos ele retorna falso,
+	senão ele retorna falso
+
+!:
+
+	Se um valor é verdadeiro ele retorna falso
+	Se um valor é falso ele retorna verdadeiro
