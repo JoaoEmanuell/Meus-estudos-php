@@ -1,0 +1,24 @@
+Os formularios em HTML 5 são indicados pela tag form
+
+Ela recebe o method, que pode ser get ou post, o get envia via url e o post
+via pacotes.
+
+Ela também recebe a ação que é o nome do arquivo php
+
+HTML:
+
+<form method="get" action="arquivo.php">
+	Valor:<input type="text" name="v"/>
+	<input type="submit" value="Calcular"/>
+</form>
+
+PHP:
+
+<?php
+
+	$valor=$_GET["input_name"];
+
+?>
+
+Se você utilizar o GET como metodo no HTML, no PHP você terá que colocar o 
+metodo $_POST["input_name"];

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset id="usuario"><legend>Identificação do Usuário</legend>
+        <p><label for="Nome">Nome:</label> <input type="text" name="Nome" id="Nome" size="100" maxlength="75" placeholder="Nome completo" required="required"></p>
+        <p><label for="Senha">Senha:</label> <input type="password" name="Senha" id="Senha" size="8" maxlength="8" placeholder="8 Digitos" required="required"></p>
+        <p><label for="Email">Email:</label> <input type="email" name="Email" id="Email" size="100" maxlength="75" placeholder="Email" required="required"></p>
+        <fieldset id="sexo"><legend>Sexo:</legend>
+            <input type="radio" name="sexo" id="masc" checked="checked"> <label for="masc">Masculino</label><br>
+            <input type="radio" name="sexo" id="fem"> <label for="fem">Feminino</label></fieldset>
+        <p><label for="Data">Data de nascimento: </label><input type="date" name="data" id="data" required="required"></p>
+        <p><label for="estado">Estado:</label></p>
+        <select name="estado" id="estado"> <!--Cria uma caixa de seleção-->
+            <optgroup label="Região Nordeste"> <!--Cria um grupo de seleção-->
+                <option value="PB" selected>PB</option> <!--Opções que estão dentro do grupo e da caixa, selected faz ela ser marcada de imediato-->
+                <option value="PE">PE</option> <!--Opções que estão dentro do grupo e da caixa-->
+            </optgroup>
+        </select>
+        <p><label for="cidade">Cidade:</label><input type="text" name="cidade" id="cidade" maxlength="42" size="40" placeholder="Sua cidade" list="cidades"></p><!--Botando o paramentro list passando a datalist cidade, faz com que eles se conectem-->
+        <datalist id="cidades"><!--Essa datalist serve para facilitar a digitação do usuario quando ele estiver digitando a cidade-->
+            <option value="João Pessoa"></option>
+            <option value="Campina Grande"></option>
+            <option value="Gado bravo"></option>
+        </datalist>
+        </fieldset>
+        <p><label for="urgencia">Grau de urgencia</label> Min<input type="range" name="urgencia" id="urgencia" min="0" max="10" step="2">Max</p><!--Input range cria um elemento que pode ser arrastado para definir o tamanho-->
+        <p><label for="mensagem">Mensagem: </label></p>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Deixe aqui sua mensagem"></textarea><!--textarea cria uma area de texto, cols é o numero de colunas e rows é o numero de linhas-->
+    </form>
+</body>
+</html>

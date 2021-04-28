@@ -1,0 +1,21 @@
+Todo formulario deve estar entre a tag form
+
+Cada campo de dados deve esta entre a tag fieldset
+
+Cada elemento de nome principal deve esta colocado entre a tag legend, para 
+ele servir como titulo
+
+Input tem diversos tipos, cada input pode receber um size que limita o tamanho
+dele, um maxlength que é o numero maximo de caracteres dele
+
+<input type="password" size="8" maxlength="8" placeholder="8 Digitos">
+
+utilize input do tipo radio para fazer uma marcação
+
+É importante que utilize label para referenciar os objetos aos seus campos
+
+Para isso é so colocar o objeto entre label e no for informar a id do objeto
+
+input type="radio" name="sexo" id="masc" checked="checked"
+
+checked faz a bolinha ser marcada automaticamente
