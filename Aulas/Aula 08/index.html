@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integração HTML5 + PHP</title>
+</head>
+<body>
+    <!--<div class="form" id="form">
+        <form method="get" action="dados.php">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <p><label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" size=50></input>
+                </p>
+                <p><label for="ano">Ano de nascimento:</label>
+                    <input type="number" name="ano" id="ano"></input>
+                </p>
+                <fieldset>
+                    <legend>
+                        <p><label for="sexo">Sexo:</label></p>
+                    </legend>
+                        <p>
+                            <input type="radio" name="sexo" id="msex" value="Masculino" checked> Value define o valor que vai ser passado caso a bolinha seja selecionada
+                                <label for="msex">Masculino</label>
+                            <input type="radio" name="sexo" id="fsex" value="Feminino"> Value define o valor que vai ser passado caso a bolinha seja selecionada
+                                <label for="fsex">Feminino</label>
+                        </p>
+                </fieldset>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>-->
+
+    <form action="dados.php" method="post">
+        <p>
+            <label for="txt">Texto:</label>
+                <p>
+                    <textarea name="txt" id="txt" cols="30" rows="10" style="resize: none"></textarea><!--style="resize: none" tranca a textarea impedindo a pessoa de redimensionar ela-->
+                </p>
+        </p>
+        <p>
+            <label for="tam">Tamanho</label>
+                <select name="tams" id="tams">
+                    <option value="8pt">8</option>
+                    <option value="10pt">10</option>
+                    <option value="14pt">14</option>
+                    <option value="20pt">20</option>
+                    <option value="40pt">40</option>
+                </select>
+        </p>
+        <p>
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor">
+        </p>
+        <input type="submit" value="Gerar">
+    </form>
+</body>
+</html>

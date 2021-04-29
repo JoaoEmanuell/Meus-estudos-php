@@ -119,3 +119,50 @@ echo "$oi";
 Dessa forma temos uma variavel que o nome dela é o valor
 da outra variável.
 ============================================
+//Aula 07
+
+Operadores Relacionais:
+
+Maior >
+
+Menor <
+
+Maior ou igual >=
+
+Menor ou igual <=
+
+Diferente <> ou !=
+
+Igual ==
+
+Idêntico === //Testa se o conteudo da var é igual ao da
+outra var
+
+Operador Unário:
+
+expressão ? verdadeiro : falso;
+
+Mesma coisa do operador ternario
+
+Operadores Lógicos:
+
+and && :
+	
+	Se os dois valores forem veradeiros ele retorna
+	verdadeiro senão retorna falso
+
+or || :
+
+	Se um valor for verdadeiro ele retorna verdadeiro
+	senão ele retorna falso
+
+xor:
+
+	Se um valor for falso ele retorna verdadeiro, mas
+	se dois valores forem falsos ele retorna falso,
+	senão ele retorna falso
+
+!:
+
+	Se um valor é verdadeiro ele retorna falso
+	Se um valor é falso ele retorna verdadeiro
