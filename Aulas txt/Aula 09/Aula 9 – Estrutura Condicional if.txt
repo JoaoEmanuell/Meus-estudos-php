@@ -1,0 +1,22 @@
+o if no php é representando como na estrutura do JS:
+
+if (condição){
+
+	bloco
+}
+
+else{
+	
+	bloco
+
+}
+
+Para aninhar uma condição você pode colocar ela dentro de outra.
+
+Existe também o elseif, que tem a mesma função do elif:
+
+elseif (condição){
+
+	bloco
+
+}

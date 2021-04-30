@@ -167,4 +167,4 @@ xor:
 	Se um valor é verdadeiro ele retorna falso
 	Se um valor é falso ele retorna verdadeiro
 	
-$date("Y") = Pega o ano atual
+date("Y") = Pega o ano atual
