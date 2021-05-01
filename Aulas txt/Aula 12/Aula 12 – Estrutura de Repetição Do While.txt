@@ -1,0 +1,11 @@
+A estrutura de repetição do while é uma estrutura feita para primeiro repetir e
+depois realizar o teste logico:
+
+do {
+	bloco
+}while (condição);
+
+Dessa forma ele primeiro ira repetir a ação e depois executar o teste logico
+
+Lembresse de encerrar a estrutura com um ; no final
+

@@ -1,0 +1,6 @@
+Estrutura for:
+
+for ($var_inicial = valor; condição; incremento) {
+	bloco
+}
+

@@ -1,0 +1,5 @@
+while (condição) {
+	bloco
+}
+
+A estrutura while é igual a estrutura while do JS

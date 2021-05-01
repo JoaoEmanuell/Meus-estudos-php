@@ -1,0 +1,28 @@
+Estrutura switch
+
+switch ($var) {
+
+	case value:
+		bloco;
+		break;
+
+	default:
+		bloco;
+}
+
+cada valor que executara o bloco é definido por case, lembresse de colocar o
+break para não bugar
+Caso não encontre nada ele executa o bloco default
+
+Condições de Múltiplos casos:
+
+switch ($op) {
+
+	case 1:
+	case 2:
+	case 3:
+		bloco;
+		break;
+}
+
+Caso o valor seja 1, 2 ou 3 ele ira executar o bloco.
