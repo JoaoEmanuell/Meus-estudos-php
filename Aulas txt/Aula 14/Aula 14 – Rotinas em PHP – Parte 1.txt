@@ -1,0 +1,32 @@
+Funções em php:
+
+function name(paramentros){
+	bloco;
+}
+
+Dessa forma você define a função
+
+Para chamar ela é so usar:
+
+name(paramentros);
+
+Onde name é o nome da função.
+
+Para criar uma função com retorno usa-se:
+
+return $var;
+
+Dessa forma a função ira retornar o valor da var.
+
+Funções com multiplos paramentros:
+
+function name(){
+	
+	$p = func_get_args();
+	tot = func_num_args();
+
+}
+
+$p = ira pegar todos os valores colocados nos paramentros entre ()
+
+$tot = ira pegar o numero total de casas (separações de elementos) entre ()

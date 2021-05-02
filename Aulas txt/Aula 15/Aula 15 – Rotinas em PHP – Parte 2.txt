@@ -1,0 +1,52 @@
+Diferente da passagem por valor que so modifica o valor do paramentro indicado
+dentro da função, a passagem por referência modifica tanto quem enviou o valor
+quanto o paramentro:
+
+function teste($x){
+
+	$x = $x + 2;
+	echo $x;
+
+$a = 3;
+teste($a);
+echo $a;
+
+Dessa forma $a vai continuar valendo 3 e $x vai valer 5, pois a passagem é por
+valor.
+
+function teste(&$x){
+	
+	$x = $x + 2;
+	echo $x;
+
+$a = 3;
+
+teste($a);
+
+echo $a);
+
+Nesse segundo caso $a vai passar a valer o mesmo valor de $x pois $x está
+referenciado a $a
+
+Para utilizar funções externas:
+
+1° = Crie um arquivo .php com a função
+
+2° = Use o comando:
+
+	include "arquivo.php";
+
+Dessa forma a sua função estará em um arquivo externo e podera ser usada por
+qualquer arquivo que você deseje.
+
+Também existe o comando require, caso você chame o arquivo mas ele não esteja
+disponivel no momento o script.php ira parar de ser executado ali mesmo.
+
+Diferente do que acontece com o include, que irá continuar o codigo normalmente
+mesmo se o arquivo estiver indisponivel.
+
+Existe também o include_once
+e o require_once
+
+Basicamente os dois verificam se você já carregou o arquivo, caso ja tenha carregado
+uma vez ele não ira carregar, senão ele ira carregar.	
