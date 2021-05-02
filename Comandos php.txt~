@@ -165,6 +165,136 @@ xor:
 !:
 
 	Se um valor é verdadeiro ele retorna falso
+
 	Se um valor é falso ele retorna verdadeiro
 	
-$date("Y") = Pega o ano atual
+date("Y") = Pega o ano atual
+============================================
+//Aula 08
+
+$var = $_GET['input_name']; = a var recebe o elemento indicado na url
+$var = $_POST['input_name']; = a var recebe o elemento indicado por pacotes
+
+Lembresse que para usar ambos depedende do metodo da tag form do html, se a form for com get use o o $_GET, se não use o $_POST.
+
+Para envitar bugs você pode usar: 
+
+$var = isset($_GET['input_name'] ? $_GET['input_name'] : value_erro;
+
+ou
+
+$var = isset($_POST['input_name'] ? $_POST['input_name'] : value_erro;
+
+o metodo isset serve para verificar se há um erro no valor passado, caso exista ele ira impedir bugs
+
+============================================
+//Aula 09
+
+Condição simples:
+
+	if (condição){
+		bloco;
+	}
+
+Condição composta:
+
+	if (condição){
+		bloco;
+	}
+	else{
+		bloco;
+	}
+	
+Or
+
+	if (condição){
+		bloco;
+	}
+	elseif (condição){
+		bloco;
+	}
+	else{
+		bloco;
+	}
+	
+============================================
+//Aula 10
+
+Switch simples:
+
+switch ($var) {
+
+	case value:
+		bloco;
+		break;
+	
+	default:
+		bloco;
+		break;
+	
+Essa condição switch serve principalmente para valores exatos, lembresse de colocar os breaks; para evitar bugs
+
+Switch multiplos casos:
+
+switch ($var) {
+
+	case value:
+	case value:
+	case value:
+		bloco;
+		break;
+	
+	default:
+		bloco;
+		break;
+}
+
+Essa condiçaõ serve para valores que sejam em sequencia, por exemplo: 1, 2, 3, caso o valor seja igual a um desses o bloco sera executado.
+============================================
+//Aula 11
+
+while (condição) {
+	bloco;
+}
+
+Primeiro teste depois realize o bloco
+============================================
+//Aula 12
+
+do {
+	bloco;
+} while (condição)
+
+primeiro realize o bloco e depois teste.
+============================================
+//Aula 13
+
+for ($var_inicial = valor; condição; incremento) {
+	bloco
+}
+
+Declare a $var inicial, verifique se a condição é verdadeira, se ela for falsa execute o bloco, incremente.
+============================================
+//Aula 14
+
+function name(paramentros){
+	bloco;
+}
+
+Dessa forma ele ira criar a função que você deseja.
+
+Caso que queria que ela retorne algo você utilize o return $var
+
+Funções com multiplos paramentros:
+
+function name(){
+	
+	$p = func_get_args();
+	tot = func_num_args();
+
+}
+
+$p = ira pegar todos os valores colocados nos paramentros entre ()
+
+$tot = ira pegar o numero total de casas (separações de elementos) entre ()
+============================================
