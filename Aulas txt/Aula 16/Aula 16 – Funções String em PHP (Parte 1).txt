@@ -1,0 +1,128 @@
+Função 1:
+
+printf = Exibe um numero já formatado
+
+	printf tem divesas funções:
+	
+	%s = Nome da string
+	%.cf = Numero de casas decimais, c = casas
+	%d = Valor decimal (positivo ou negativo)
+	%u = Valor decimal sem sinal (apenas positivos)
+
+print_r = Exibe o vetor e os valores dele com as casas.
+
+	Array ( [x] => v )
+
+Também, existem mais duas funções para substuir o print_r:
+
+	var_dump:
+	
+	array(nv) { [c]=> tip(v)}
+	
+	nv = Numero de valores da array
+	
+	c = Casa onde está o valor
+	
+	tip = Tipo primitivo do valor
+	
+	v = Valor
+
+	var_export:
+
+	array ( c => v, c)
+	
+	c = casa
+
+	v = valor
+
+wordwrap = Quebra de linha:
+
+	wordwrap(txt, lc ,"<br>\n", bool)
+	
+	txt = Texto ou $var contendo o texto
+
+	lc = limite de caracteres
+
+	<br>\n = ira quebrar tanto no texto quanto no codigo html
+
+	bool = paramentro falso ou verdadeiro, o falso ira quebrar palavras
+	que contenham menos do que o lc
+	Já o verdadeiro ira cortar palavras que tenham mais do que o lc
+
+strlen = Calcula o tamanho de caracteres de uma str:
+
+	strlen(txt);
+
+	txt = texto ou var contendo o texto
+
+	ela irar retornar o tamanho dos caracteres
+
+trim = Elimina espaços colocados no inicio e no fim da str:
+
+	trim(txt);
+
+	txt = texto ou var contendo o texto
+
+	Util principalmente para formularios.
+
+ltrim = Elimina os espaços colocados no inicio da str:
+
+	ltrim(txt);
+
+	txt = texto ou var contendo o texto
+
+rtrim = Elimina os espaços colocados no final da str:
+
+	rtrim(txt):
+
+	txt =texto ou var contendo o texto
+
+str_word_count = Retorna o numero de palavras da str:
+
+	str_word_count(txt, p);
+
+	txt = texto ou var contendo o texto 
+	
+	p = 0, 1 ou 2:
+
+	0 = Conta o numero de palavras na str
+
+	1 = Transforma a str em um array, colocando cada palavra em uma chave
+	
+	2 = Transforma a str em um array, colocando cada palavra em um chave
+	de acordo com a sua posição
+
+explode = Transforma a str em um vetor:
+
+	explode(" ", txt);
+
+	txt = Texto ou $var contendo o texto
+
+	O " " inidica que sempre que ele encontrar um espaço em branco, ele
+	ira "explodir" e colocar o valor anterior em uma chave
+
+str_split = Transforma cada letra da str em uma chave de vetor:
+
+	str_split(txt);
+
+	txt = Texto ou $var contendo o texto
+
+implode = Transforma os dados de um vetor em um texto:
+
+	implode("p", vetor)
+	
+	"p" = Lugar que ficara no espaço entre as chaves do vetor
+
+	vetor = Vetor...
+
+chr = Mostra a letra que está no codigo indicado:
+
+	chr(c);
+
+	c = codigo que você deseja visualizar a letra
+
+ord = Mostra o codigo que está na letra indicada:
+
+	cod(l);
+
+	l = Letra que você deseja visualizar o codigo

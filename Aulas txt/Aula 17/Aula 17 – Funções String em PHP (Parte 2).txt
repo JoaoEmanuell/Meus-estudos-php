@@ -1,0 +1,122 @@
+strtolower = Transforma todas as letras da str em minusculas:
+
+	strtolower(txt):
+
+	txt = str ou var contendo str
+
+strtoupper = Transforma todas as letras da str em maisculas:
+	
+	strtoupper(txt):
+
+	txt = str ou var contendo str
+
+ucfirst = Transforma a primeira letra em uma letra maiscula:
+
+	ucfirst(txt):
+
+	txt = str ou var contendo str
+
+ucwords = Transforma a primeira letra de cada palavra em uma letra maiscula:
+
+	ucwords(txt):
+
+	txt = str ou var contendo str
+
+strrev = Inverte a ordem das letras na str:
+
+	strrev(txt):
+
+	txt = str ou var contendo str
+
+strpos = informa a localização da primeira letra da palavra desejada:
+
+	strpos(txt, "pal"):
+
+	txt = str ou var contendo str
+
+	pal = palavra que você deseja saber a posição
+
+	obs: Ele so ira encontrar se a pal estiver identica a que está na str
+
+stripos = informa a localização da primeira letra da palavra desejada:
+
+	stripos(txt, "pal"):
+
+	txt = str ou var contendo str
+
+	pal = palavra que você deseja saber a posição
+
+	obs: nesse caso ele ira encontrar idepedente da forma que a palavra
+	esteja escrita (tano se pal estiver toda em maisculas, ou em minusculas
+	) ele ira encontrar
+
+substr_count = informa quantas vezes a palavra foi encontrada:
+
+	substr_count(txt, "pal"):
+
+	txt = str ou var contendo str
+
+	pal = palavra que você deseja saber quantas vezes foi encontrada
+
+substr = informa quais os caracteres dentro do invervalo indicado:
+
+	substr(txt, i, f):
+	
+	txt = str ou var contendo str
+
+	i = numero da casa da letra inicial
+
+	f = numero da casa da letra final
+
+	obs: se o i for informado mas o f não, ele ira colocar as letras a
+	partir de i
+	
+	Se o valor for negativo ele ira escrever as letras finais (-5 ele ira
+	escrever a 5 letras finais)
+
+str_pad = Complementa todos os valores com str indicadas:
+
+	str_pad(txt, v, "c", P);
+
+	txt = str ou var contendo str
+
+	v = Numero de casas que será complementada
+
+	c = Caractere que será colocado
+
+	p = paramentro, pode ser STR_PAD_RIGHT que ira complementar a direita
+	STR_PAD_LEFT que ira complementar a esquerda
+	STR_PAD_BOTH que ira complementar ao centro
+
+str_repeat = Repete uma str determinado numero de vezes.
+
+	str_repeat(txt, v):
+
+	txt = str ou var contendo str
+
+	v = numero de repetições desejadas
+
+str_replace = Substitui todas a palavra desejada por outra palavra:
+
+	str_replace("pf", "pr", txt)
+	
+	pf = Palavra fonte, que será a substituida
+
+	pr = Palavra replace, que será a que irá substituir a outra
+
+	txt = str ou var contendo str
+
+	obs: Essa função substitui todas as pf na str
+
+str_ireplace = Substitui todas a palavra desejada por outra palavra:
+
+        str_replace("pf", "pr", txt)
+
+        pf = Palavra fonte, que será a substituida
+
+        pr = Palavra replace, que será a que irá substituir a outra
+
+        txt = str ou var contendo str
+
+        obs: Essa função substitui todas as pf na str iginorando se pf está
+	diferente da que está na str.
