@@ -298,3 +298,119 @@ $p = ira pegar todos os valores colocados nos paramentros entre ()
 
 $tot = ira pegar o numero total de casas (separações de elementos) entre ()
 ============================================
+//Aula 15
+
+function teste(&$var){
+	
+	$var = $var + 2;
+	echo $var;
+
+}
+
+Essa forma serve para que ele faça uma referencia entre o valor a $var que passa o valor e a $var do paramentro.
+
+Para utilizar funções externas:
+
+1° = Crie um arquivo .php com a função
+
+2° = Use o comando:
+
+	include "arquivo.php";
+
+Dessa forma a sua função estará em um arquivo externo e podera ser usada por
+qualquer arquivo que você deseje.
+
+Também existe o comando require, caso você chame o arquivo mas ele não esteja
+disponivel no momento o script.php ira parar de ser executado ali mesmo.
+
+Diferente do que acontece com o include, que irá continuar o codigo normalmente
+mesmo se o arquivo estiver indisponivel.
+
+Existe também o include_once
+e o require_once
+
+Basicamente os dois verificam se você já carregou o arquivo, caso ja tenha carregado
+uma vez ele não ira carregar, senão ele ira carregar.
+============================================
+//Aula 16
+
+printf = Exibe um numero já formatado
+
+	printf tem divesas parâmentros:
+	
+	%s = Nome da string
+	%.cf = Numero de casas decimais, c = casas
+	%d = Valor decimal (positivo ou negativo)
+	%u = Valor decimal sem sinal (apenas positivos)
+
+
+print_r = Exibe o vetor e os valores dele com as casas.
+
+wordwrap = Quebra de linha:
+
+	wordwrap(txt, lc ,"<br>\n", bool)
+	
+strlen = Calcula o tamanho de caracteres de uma str:
+
+trim = Elimina espaços colocados no inicio e no fim da str:
+
+ltrim = Elimina os espaços colocados no inicio da str:
+
+rtrim = Elimina os espaços colocados no final da str:
+
+str_word_count = Retorna o numero de palavras da str:
+
+explode = Transforma a str em um vetor:
+
+str_split = Transforma cada letra da str em uma chave de vetor:
+
+implode = Transforma os dados de um vetor em um texto:
+
+chr = Mostra a letra que está no codigo indicado:
+
+ord = Mostra o codigo que está na letra indicada:
+============================================
+//Aula 17
+
+strtolower = Transforma todas as letras da str em minusculas:
+
+strtoupper = Transforma todas as letras da str em maisculas:
+
+ucfirst = Transforma a primeira letra em uma letra maiscula:
+
+ucwords = Transforma a primeira letra de cada palavra em uma letra maiscula:
+
+strrev = Inverte a ordem das letras na str:
+
+strpos = informa a localização da primeira letra da palavra desejada:
+
+	strpos(txt, "pal"):
+	
+stripos = informa a localização da primeira letra da palavra desejada:
+
+	stripos(txt, "pal"):
+
+substr_count = informa quantas vezes a palavra foi encontrada:
+
+	substr_count(txt, "pal"):
+	
+substr = informa quais os caracteres dentro do invervalo indicado:
+
+	substr(txt, i, f):
+	
+str_pad = Complementa todos os valores com str indicadas:
+
+	str_pad(txt, v, "c", P);
+	
+str_repeat = Repete uma str determinado numero de vezes.
+
+	str_repeat(txt, v):
+	
+str_replace = Substitui todas a palavra desejada por outra palavra:
+
+	str_replace("pf", "pr", txt)
+	
+str_ireplace = Substitui todas a palavra desejada por outra palavra:
+
+        str_replace("pf", "pr", txt)
+============================================
