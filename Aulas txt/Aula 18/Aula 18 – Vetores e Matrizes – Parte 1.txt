@@ -1,0 +1,111 @@
+Para declarar um vetor em php, você utiliza:
+
+$var = array();
+
+or
+
+$var = [];
+
+arrays em php são dinamicos, para adicionar um valor em uma posição especifica
+usa-se a sintaxe:
+
+$var[pos] = value;
+
+Dessa forma será atribuido um valor na posição desejada.
+
+Para adicionar valores no final do array, usa-se:
+
+$var[] = value;
+
+Dessa forma será atribuido um valor na posição final.
+
+range:
+
+	um array com range é um pouco diferente:
+
+	$var = range(vi, vf, p)
+
+	vi = valor inicial
+
+	vf = valor final
+
+	p = passo
+
+	ele irá criar um array que o ultimo valor seja vf, o primeiro seja vi
+	e va preenchendo as outras chaves baseado no p
+	
+	No caso as chaves entre vi e vf vão recebendo a soma de p, até que
+	chegue a vf, aumentando exponecialmente o numero de chaves
+
+foreach:
+
+	Essa estrutura de repetição é extremamente util para arrays:
+
+		foreach($var as $valor){
+
+			echo "$valor ";
+		}
+	
+	Dessa forma ele ira escrever cada valor do array var, de forma
+	simplificada
+
+Chvaes personalizadas:
+
+	Essa forma serve para criar um array com chaves personalizadas:
+
+		$var = array(c => "Value",)
+	
+	c = chave
+
+	=> = atribuido
+
+	value = valor
+
+	para cada chave nova, deve-se colcar uma , para separar logo apos o
+	valor.
+
+	por serem chaves personalizadas, as chaves podem ter nomes ao inves
+	de numeros, dessa forma servindo como dicionarios.
+
+	Nesse ultimo caso, para utilizar a estrutura foreach você pode fazer:
+
+	foreach($var as $key => $value){
+		echo "$key $value";
+	}
+
+	$key = chave;
+
+	$value = valor;
+
+Apagar valores:
+
+	unset($var[c]);
+
+	c = chave
+
+	irar apagar o valor na chave selecionada
+
+	array_pop($var);
+
+	irar apagar o ultimo valor do array
+
+Matrizes:
+
+	Para criar uma matriz, você utiliza o conceito de array aninhados:
+
+	$var = array(array(value), array(value))
+
+	dessa forma você tera um array com 2 arrays dentro deles
+
+	O numero de arrays dentro de um array, determina o numero de colunas
+
+	O numero de linhas é determinado pelo numero de valores dentro das 
+	colunas
+
+	Para adicionar elementos você utiliza:
+
+	$var[c][l] = value;
+
+	c = coluna
+
+	l = linha

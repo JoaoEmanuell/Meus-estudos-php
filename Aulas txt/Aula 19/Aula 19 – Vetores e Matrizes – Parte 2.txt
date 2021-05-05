@@ -1,0 +1,34 @@
+Funções para vetores:
+
+	print_r($v) = exibe o vetor e as posições
+
+	var_dump($v) = exibe o vetor, as posições, os tipos primitivos e o total
+	
+	count($v) = exibe o numero de keys do vetor
+
+	array_push($v, value) = adiciona um elemento no final do vetor 
+	(tanto faz usar $v[] = value; ou esse)
+
+	array_pop($v) = elimina o ultimo elemento do vetor
+
+	array_unshift($v, value) = adiciona um elemento no inicio do vetor
+
+	array_shift($v) = elimina o primeiro elemento do vetor
+
+	sort($v) = coloca o vetor em ordem (caso o tipo primitivo de um elemento
+	seja str, a str ira ser colocada em primeiro e ordenar por ordem
+	alfabetica)
+
+	rsort($v) = coloca o vetor em ordem reversa
+
+	obs: sort e rsort não alteram as keys, so os valores
+
+	asort($v) = coloca o vator em ordem cresente alterando as keys
+
+	arsort($v) = coloca o vetor em ordem decresente alterando as keys
+
+	ksort($v) = coloca o vetor em ordem baseado nas keys, consequentemente
+	altera os valores das keys
+
+	krsort($v) = coloca o vetor em ordem reversa baseado nas keys
+	consequentemente altera os valores das keys

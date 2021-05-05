@@ -414,3 +414,65 @@ str_ireplace = Substitui todas a palavra desejada por outra palavra:
 
         str_replace("pf", "pr", txt)
 ============================================
+//Aula 18
+
+$var = array();
+
+or
+
+$var = [];
+
+Cria um array
+
+$var = range(vi, vf, p)
+
+	vi = valor inicial
+
+	vf = valor final
+
+	p = passo
+
+	ele irá criar um array que o ultimo valor seja vf, o primeiro seja vi
+	e va preenchendo as outras chaves baseado no p
+	
+	No caso as chaves entre vi e vf vão recebendo a soma de p, até que
+	chegue a vf, aumentando exponecialmente o numero de chaves
+	
+foreach:
+
+		foreach($var as $valor){
+
+			echo "$valor ";
+		}
+
+Cria uma chave personalizada:
+	$var = array(c => "Value",)
+
+Apagar valores:
+
+	unset($var[c]); = apaga o item desejado
+	
+	array_pop($var); = apaga o ultimo item da array
+	
+Matrizes:
+
+	Para criar uma matriz, você utiliza o conceito de array aninhados:
+
+	$var = array(array(value), array(value))
+
+	dessa forma você tera um array com 2 arrays dentro deles
+
+	O numero de arrays dentro de um array, determina o numero de colunas
+
+	O numero de linhas é determinado pelo numero de valores dentro das 
+	colunas
+
+	Para adicionar elementos você utiliza:
+
+	$var[c][l] = value;
+
+	c = coluna
+
+	l = linha
+============================================
+//Aula 19
